@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "/home/mikthehost/repos/py4e/chapter9"
+            "cwd": "/home/mikthehost/repos/py4e/web_data/chapter11"
         }
     ]
 }

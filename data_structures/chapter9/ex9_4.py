@@ -17,7 +17,7 @@ nameFile = input("Enter file name:")
 
 if len(nameFile) < 1:
     nameFile = "mbox-short.txt"
-    handleFile = open(nameFile)
+handleFile = open(nameFile)
 
 counts = dict()
 

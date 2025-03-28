@@ -13,8 +13,8 @@ def computepay(hours, rate):
         overHours = hours - 40
         overRate = 1.5 * rate
         overPay = overHours * overRate
-        payment = overPay + 40 * rate
-        return payment
+        payment = overPay + 40 * rate 
+        return payment # (1.5)*(hours-40) + 40*rate
     else:
         payment = hours * rate
         return payment
